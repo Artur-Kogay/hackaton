@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface:regular);
+@import url(https://fonts.googleapis.com/css?family=Grape+Nuts:regular);
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface:regular);
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: inherit;
+  font-family: "Inter";
+  transition: 0.5s;
+}
+
+.active {
+  color: rgb(109, 216, 21) !important;
+}
+
+body {
+  font-family: "Inter";
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
